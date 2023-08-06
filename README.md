@@ -21,7 +21,7 @@ while(live){
 }
 
 function workUntilTired(avgTiredHours,energy){
-  for(var i=0; i<avgTiredHours){
+  for(var i=0; i<avgTiredHours; i++){
     doWork("Coding");
     if(avgTiredHours - 1 === i) {
         if(energy === 0){
